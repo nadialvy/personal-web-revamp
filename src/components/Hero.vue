@@ -8,7 +8,7 @@
           <p class="text-3xl font-bold md:text-4xl lg:text-5xl lg:pr-16 xl:text-7xl">
             Innovation, Exploration, and Everything In Between
           </p>
-          <p class="pt-8 pb-4 md:pr-64 lg:pr-72 xl:pr-96 md:text-lg lg:text-lg md:pt-12 md:pb-10 xl:text-2xl 2xl:pt-28 2xl:pr-[550px]">
+          <p class="pt-8 pb-4 md:pr-64 lg:pr-72 xl:pr-96 md:text-lg lg:text-lg md:pt-12 md:pb-10 xl:text-2xl 2xl:pt-22 2xl:pr-[550px]">
             Welcome to Nadia’s personal website, where I showcase my skills and
             expertise in software engineering.
           </p>

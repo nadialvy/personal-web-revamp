@@ -10,6 +10,7 @@ export default {
     extend: {
       colors:{
         'purple':{
+          '300': '#6059BE',
           '500': '#302895'
         },
         'pink':{
