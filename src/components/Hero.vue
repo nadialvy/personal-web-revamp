@@ -20,9 +20,6 @@
       </div>
     </div>
   </div>
-  <div class="h-[600px]">
-    tes
-  </div>
 </template>
 
 <style scoped>
