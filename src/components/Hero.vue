@@ -3,12 +3,12 @@
     <img id="animate-on-load-star-down" src="/hero/el-hero-star.svg" alt="star" class="absolute opacity-80 -z-0 left-0 bottom-0 top-[500px] md:top-[600px] lg:top-[450px] w-32 md:w-44 lg:w-52 xl:w-72 xl:top-[510px]">
     <img id="animate-on-load-starround-up" src="/hero/el-hero-round.svg" alt="star round" class="absolute -z-0 top-0 left-64 md:left-[450px] lg:left-[550px] w-32 md:w-48 lg:w-64 xl:w-96 xl:left-[900px] 2xl:left-[1300px]">
     <div class="flex flex-wrap" id="animate-on-load-up" >
-      <div class="px-8 py-6 md:pt-32 lg:w-1/5 lg:px-12 lg:py-16 z-10 2xl:px-24">
+      <div class="px-8 py-6 md:pt-32 lg:w-1/5 lg:px-12 lg:py-16 z-10 2xl:px-32">
         <div class="text-white lg:absolute lg:pr-80 xl:pr-96 lg:inset-y-1/3 lg:transform lg:-translate-y-1/3">
           <p class="text-3xl font-bold md:text-4xl lg:text-5xl lg:pr-16 xl:text-7xl">
             Innovation, Exploration, and Everything In Between
           </p>
-          <p class="pt-8 pb-4 md:pr-64 lg:pr-72 xl:pr-96 md:text-lg lg:text-lg md:pt-12 md:pb-10 xl:text-2xl 2xl:pt-32 2xl:pr-[550px]">
+          <p class="pt-8 pb-4 md:pr-64 lg:pr-72 xl:pr-96 md:text-lg lg:text-lg md:pt-12 md:pb-10 xl:text-2xl 2xl:pt-28 2xl:pr-[550px]">
             Welcome to Nadia’s personal website, where I showcase my skills and
             expertise in software engineering.
           </p>
@@ -16,7 +16,7 @@
         </div>
       </div>
       <div class="lg:w-4/5 -z-0">
-        <img src="/hero/hero-2.svg" alt="Hero" class="lg:w-[1000px] relative lg:bottom-0 2xl:left-[530px]"/>
+        <img src="/hero/hero-2.svg" alt="Hero" class="lg:w-[1000px] relative lg:bottom-0 xl:left-[140px] 2xl:left-[530px]"/>
       </div>
     </div>
   </div>
@@ -60,7 +60,7 @@ export default {
 
     const animateOnLoadStarroundUp = document.getElementById("animate-on-load-starround-up");
     animateOnLoadStarroundUp.classList.add("animate-up");
-    
+
     const animateOnLoadDownStar = document.getElementById("animate-on-load-star-down");
     animateOnLoadDownStar.classList.add("animate-down");
   },
