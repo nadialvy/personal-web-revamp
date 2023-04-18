@@ -30,6 +30,12 @@ export default {
           "background-position": "bottom",
           "background-repeat": "no-repeat"
         },
+        ".bg-card": {
+          "background-image": "url(/skills/bg-card.svg)",
+          "background-size": "cover",
+          "background-position": "bottom",
+          "background-repeat": "no-repeat"
+        }
       };
 
       addUtilities(utilities);
