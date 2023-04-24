@@ -14,11 +14,22 @@ export default {
           '500': '#302895'
         },
         'pink':{
+          '100': '#FA6CD3',
           '500': '#C82179',
           '600': '#A61662',
         }
       },
-      fontFamily: { 'inter': ['Inter', 'Helvetica', 'Arial', 'sans-serif'] }
+      fontFamily: { 'inter': ['Inter', 'Helvetica', 'Arial', 'sans-serif'] },
+      transitionDuration: {
+        '2000': '2000ms',
+      },
+      backgroundSize: {
+        'size-200': '200% 200%',
+      },
+      backgroundPosition: {
+        'pos-0': '0% 0%',
+        'pos-100': '100% 100%',
+      },
     },
   },
   plugins: [
@@ -34,7 +45,13 @@ export default {
           "background-image": "url(/skills/bg-card.svg)",
           "background-size": "cover",
           "background-position": "bottom",
-          "background-repeat": "no-repeat"
+          "background-repeat": "no-repeat",
+        },
+        ".el-star": {
+          "background-image": "url(/skills/star.png)",
+          "background-size": "cover",
+          "background-position": "bottom",
+          "background-repeat": "no-repeat",
         }
       };
 

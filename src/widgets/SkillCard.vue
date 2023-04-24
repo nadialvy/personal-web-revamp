@@ -1,21 +1,17 @@
 <template>
   <div
-    class="bg-gray-100 w-32 rounded-lg overflow-hidden shadow-lg relative transition duration-500 ease-in-out transform hover:-translate-y-2 hover:shadow-xl"
+    class="mx-2 mt-4 xl:mt-6 xl:mx-3 p-8 flex justify-center items-center opacity-80 group text-white rounded-md transition-all duration-500 bg-gradient-to-tl from-pink-500 via-gray-900 to-purple-500 bg-size-200 bg-pos-0 hover:bg-pos-100 hover:cursor-pointer"
   >
-    <div
-      class="bg-white p-6 hover:bg-card group transition-all ease-in-out duration-700 flex flex-col justify-center items-center"
-    >
-      <img
-        :src=path
-        :alt=alt
-        class="group-hover:hidden block transition-all"
-      />
-      <img
-        :src=hoverPath
-        :alt=alt
-        class="group-hover:block hidden transition-all"
-      />
-    </div>
+    <img
+      :src=path
+      :alt=alt
+      class="group-hover:hidden block group-hover:transition-all w-16"
+    />
+    <img
+      :src=hoverPath
+      :alt=alt
+      class="group-hover:block hidden group-hover:transition-all w-16"
+    />
   </div>
 </template>
 
