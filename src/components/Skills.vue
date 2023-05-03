@@ -19,77 +19,77 @@ import SkillCard from '../widgets/SkillCard.vue';
         <div class="w-1/2 md:w-1/3 lg:w-1/4">
           <SkillCard
           path="/skills/php_1.png"
-            alt="PHP"
+            alt="MYSQL"
             hoverPath="/skills/php_2.png"
           />
         </div>
         <div class="w-1/2 md:w-1/3 lg:w-1/4">
           <SkillCard
             path="/skills/php_1.png"
-            alt="PHP"
+            alt="HTML"
             hoverPath="/skills/php_2.png"
           />
         </div>
         <div class="w-1/2 md:w-1/3 lg:w-1/4">
           <SkillCard
           path="/skills/php_1.png"
-            alt="PHP"
+            alt="Javascript"
             hoverPath="/skills/php_2.png"
           />
         </div>
         <div class="w-1/2 md:w-1/3 lg:w-1/4">
           <SkillCard
             path="/skills/php_1.png"
-            alt="PHP"
+            alt="Dart"
             hoverPath="/skills/php_2.png"
           />
         </div>
         <div class="w-1/2 md:w-1/3 lg:w-1/4">
           <SkillCard
           path="/skills/php_1.png"
-          alt="PHP"
+          alt="Laravel"
             hoverPath="/skills/php_2.png"
           />
         </div>
         <div class="w-1/2 md:w-1/3 lg:w-1/4">
           <SkillCard
             path="/skills/php_1.png"
-            alt="PHP"
+            alt="Vue"
             hoverPath="/skills/php_2.png"
           />
         </div>
         <div class="w-1/2 md:w-1/3 lg:w-1/4">
           <SkillCard
             path="/skills/php_1.png"
-            alt="PHP"
+            alt="Flutter"
             hoverPath="/skills/php_2.png"
           />
         </div>
         <div class="w-1/2 md:w-1/3 lg:w-1/4">
           <SkillCard
           path="/skills/php_1.png"
-            alt="PHP"
+            alt="getX"
             hoverPath="/skills/php_2.png"
           />
         </div>
         <div class="w-1/2 md:w-1/3 lg:w-1/4">
           <SkillCard
           path="/skills/php_1.png"
-          alt="PHP"
+          alt="Tawilwind"
           hoverPath="/skills/php_2.png"
           />
         </div>
         <div class="w-1/2 md:w-1/3 lg:w-1/4">
           <SkillCard
           path="/skills/php_1.png"
-          alt="PHP"
+          alt="Gitlab"
           hoverPath="/skills/php_2.png"
           />
         </div>
         <div class="w-1/2 md:w-1/3 lg:w-1/4">
           <SkillCard
             path="/skills/php_1.png"
-            alt="PHP"
+            alt="Figma"
             hoverPath="/skills/php_2.png"
             />
           </div>
