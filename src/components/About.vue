@@ -8,7 +8,7 @@
     <div class="pt-8 text-purple-500 md:w-2/3 xl:text-xl 2xl:text-2xl">
       <p class="text-white hidden lg:block lg:text-purple-500 font-bold lg:text-4xl lg:pb-8 xl:text-5xl 2xl:text-6xl hover-rectangle hover:cursor-pointer overflow-x-hidden">About</p>
       <p class="font-semibold">Exploring my world of turning challenges into new comfort zones! My name is Nadia Lovely, and I am a Flutter Developer with a passion for pushing my limits. Over the past 2+ years, I've been learning the ins and outs of web programming with Laravel and VueJS.</p>
-      <p class="py-4 font-semibold">Recently, I have been working as a Flutter Developer, gaining valuable experience and developing my skills after completing my internship at a start-up where I built mobile applications.</p>
+      <p class="py-4 font-semibold">Recently, I have been working as a Fullstack Developer, gaining valuable experience and developing my skills after completing my internship at a start-up where I built mobile applications as a Flutter Developer.</p>
       <p class="font-semibold">When I'm not coding, you can find me indulging in my love for k-pop, playing with stray cats, and listening to music.</p>
     </div>
   </div>
