@@ -1,29 +1,41 @@
 <template>
-  <div class="mt-6 px-12">
+  <div class="mt-6 px-8 2xl:px-20">
     <p class="text-3xl mb-6 text-purple-500 font-bold text-center lg:text-4xl lg:pb-8 xl:text-5xl 2xl:text-6xl">Projects</p>
-    <div class="flex flex-nowrap overflow-x-auto hidescroll">
-      <div class="inline-block mx-2">
-        <div class="bg-white shadow-md rounded-md p-4" style="width: 300px;">
-          <h2 class="text-lg font-bold mb-2">Card 1</h2>
-          <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="carousel rounded-box mb-12">
+      <div class="carousel-item">
+        <div class="card border h-96 border-grey">
+          <p class="text-2xl font-bold">Project 1</p>
+          <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
         </div>
       </div>
-      <div class="inline-block mx-2">
-        <div class="bg-white shadow-md rounded-md p-4" style="width: 300px;">
-          <h2 class="text-lg font-bold mb-2">Card 2</h2>
-          <p class="text-gray-500">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <div class="carousel-item">
+        <div class="card border h-96 border-grey">
+          <p class="text-2xl font-bold">Project 1</p>
+          <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
         </div>
       </div>
-      <div class="inline-block mx-2">
-        <div class="bg-white shadow-md rounded-md p-4" style="width: 300px;">
-          <h2 class="text-lg font-bold mb-2">Card 3</h2>
-          <p class="text-gray-500">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <div class="carousel-item">
+        <div class="card border h-96 border-grey">
+          <p class="text-2xl font-bold">Project 1</p>
+          <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
         </div>
       </div>
-      <div class="inline-block mx-2">
-        <div class="bg-white shadow-md rounded-md p-4" style="width: 300px;">
-          <h2 class="text-lg font-bold mb-2">Card 4</h2>
-          <p class="text-gray-500">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <div class="carousel-item">
+        <div class="card border h-96 border-grey">
+          <p class="text-2xl font-bold">Project 1</p>
+          <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card border h-96 border-grey">
+          <p class="text-2xl font-bold">Project 1</p>
+          <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card border h-96 border-grey">
+          <p class="text-2xl font-bold">Project 1</p>
+          <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
         </div>
       </div>
     </div>

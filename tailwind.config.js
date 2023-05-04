@@ -34,6 +34,7 @@ export default {
     },
   },
   plugins: [
+    require("daisyui"),
     plugin(function({ addUtilities }){
       const utilities = {
         ".bg-hero-first": {
