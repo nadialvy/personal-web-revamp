@@ -18,6 +18,10 @@ export default {
           '400': '#FC0FB9',
           '500': '#C82179',
           '600': '#A61662',
+          '700': '#ff4ec0'
+        },
+        'yellow':{
+          '500': '##8D9528'
         }
       },
       fontFamily: { 'inter': ['Inter', 'Helvetica', 'Arial', 'sans-serif'] },
