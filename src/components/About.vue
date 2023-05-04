@@ -1,7 +1,7 @@
 <template>
   <img src="/about/el-planet.svg" alt="PLanet element" class="w-28 absolute right-0 lg:w-32 xl:w-52 2xl:w-64">
   <p class="text-3xl text-purple-500 px-8 pt-8 font-bold text-center lg:hidden">About</p>
-  <div class="px-8 py-2 md:flex md:gap-x-4 xl:gap-x-8 lg:px-22 xl:px-32 2xl:px-72 2xl:gap-x-16 lg:mt-6">
+  <div class="px-8 py-2 md:flex md:gap-x-4 xl:gap-x-8 lg:px-20 xl:px-24 2xl:px-72 2xl:gap-x-16 lg:mt-6">
     <div class="md:w-1/3 items-center md:justify-center">
       <img src="/about/main-pict.svg" alt="Self Picture" class="w-full animate-bounce animate-bounce-slow ease-in">
     </div>
@@ -12,7 +12,7 @@
       <p class="font-semibold">When I'm not coding, you can find me indulging in my love for k-pop, playing with stray cats, and listening to music.</p>
     </div>
   </div>
-  <img src="/about/el-star.svg" alt="Star" class="w-44 lg:w-48 2xl:w-64">
+  <img src="/about/el-star.svg" alt="Star" class="w-44 lg:w-52 2xl:w-64">
 </template>
 
 <style>

@@ -1,41 +1,41 @@
 <template>
-  <div class="py-6 px-8 lg:px-20 lg:py-8 xl:px-32 xl:py-10 2xl:px-[410px] 2xl:py-12">
-    <p class="text-3xl text-purple-500 font-bold text-center lg:text-4xl lg:pb-8 xl:text-5xl 2xl:text-6xl">Let's Work Together</p>
-    <div class="lg:flex lg:gap-x-6">
+  <div class="py-6 px-8 lg:px-20 lg:py-8 xl:px-28 xl:py-10 2xl:px-[410px] 2xl:py-12 relative">
+    <p class="text-3xl text-purple-500 font-bold text-center lg:text-4xl lg:pb-8 xl:text-5xl 2xl:text-6xl xl:pb-12">Let's Work Together</p>
+    <div class="lg:flex lg:gap-x-24">
       <div class="lg:w-1/2 xl:text-xl">
         <p class="text-xl text-purple-500 mt-6 font-semibold 2xl:text-2xl">Contact Information</p>
         <p class="text-black mt-1">Get in touch with me via the contact information below if you're interested in connecting, collaborating, or discussing potential opportunities:</p>
         <div class="flex gap-x-2 flex-wrap justify-start items-center mt-4 2xl:mt-16">
-          <img src="/contactUs/email.png" alt="Email" class="w-7">
+          <img src="/contact/email.png" alt="Email" class="w-7">
           <p class="hover:font-semibold text-purple-500 hover:text-pink-700 hover:cursor-pointer">nadialovely1803@gmail.com</p>
         </div>
         <a href="https://www.linkedin.com/in/nadia-lovely/" target="_blank" rel="noopener noreferrer">
           <div class="flex gap-x-2 flex-wrap justify-start items-center mt-4">
-            <img src="/contactUs/linkedin.png" alt="Linkedin" class="w-7">
+            <img src="/contact/linkedin.png" alt="Linkedin" class="w-7">
             <p class="hover:font-semibold text-purple-500 hover:text-pink-700">Nadia Lovely</p>
           </div>
         </a>
         <a href="https://github.com/nadialvy" target="_blank" rel="noopener noreferrer" class="mb-4 lg:mb-0">
           <div class="flex gap-x-2 flex-wrap justify-start items-center mt-4">
-            <img src="/contactUs/github-sign.png" alt="Github" class="w-7">
+            <img src="/contact/github-sign.png" alt="Github" class="w-7">
             <p class="hover:font-semibold text-purple-500 hover:text-pink-700">nadialvy</p>
           </div>
         </a>
         <div class="divider lg:hidden"></div>
       </div>
-      
+
       <div class="lg:w-1/2">
-        <div class="form-control w-full mb-2">
+        <div class="form-control w-full mb-2 z-20">
           <label class="label">
             <span class="label-text">Name</span>
           </label>
-          <input type="text" v-model="from_name" name="name" class="input input-bordered w-full mb-2" />
+          <input type="text" v-model="from_name" name="name" placeholder="John Doe" class="input input-bordered w-full mb-2" />
         </div>
         <div class="form-control w-full mb-2">
           <label class="label">
             <span class="label-text">Email</span>
           </label>
-          <input type="text" placeholder="ex: hello@gmail.com" v-model="from_email" name="email" class="input input-bordered w-full mb-2" />
+          <input type="text" placeholder="john@gmail.com" v-model="from_email" name="email" class="input input-bordered w-full mb-2" />
         </div>
         <div class="form-control w-full mb-2">
           <label class="label">
@@ -52,6 +52,8 @@
         <button class="btn btn-primary mt-4 rounded-none w-full mb-2" @click="sendEmail">Send</button>
       </div>
     </div>
+    <img src="/contact/star.svg" alt="star" class="absolute top-0 -right-20 hidden lg:block w-64 -z-0 opacity-30 2xl:w-96 2xl:-right-32">
+    <img src="/contact/dots.svg" alt="Dot" class="absolute bottom-0 left-0 opacity-30 hidden lg:block w-80 2xl:w-[400px]">
   </div>
 </template>
 
@@ -89,6 +91,7 @@ export default{
         this.createAlert(`Something went wrong ${error}`, "danger", 5000);
         console.log({error})
       }
+
       // Reset form field
       this.name = ''
       this.email = ''
