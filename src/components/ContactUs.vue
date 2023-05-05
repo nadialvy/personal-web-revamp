@@ -1,4 +1,5 @@
 <template>
+  <p class="relative bottom-[68px] lg:bottom-[98px]" id="contact"></p>
   <div class="py-6 px-8 lg:px-20 lg:py-8 xl:px-28 xl:py-10 2xl:px-[410px] 2xl:py-12 relative mb-10">
     <p class="text-3xl text-purple-500 font-bold text-center lg:text-4xl lg:pb-8 xl:text-5xl 2xl:text-6xl xl:pb-12">Let's Work Together</p>
     <div class="lg:flex lg:gap-x-24">

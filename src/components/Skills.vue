@@ -3,6 +3,7 @@ import SkillCard from '../widgets/SkillCard.vue';
 </script>
 
 <template>
+  <p class="relative bottom-[68px] lg:bottom-[98px]" id="skills"></p>
   <div class="bg-purple-500 relative">
     <img src="/skills/top-star.svg" alt="star element" class="absolute -right-10 top-10 w-40 lg:w-72 lg:-right-0 opacity-50 -z-0">
     <div class="px-8 pt-8 pb-10 lg:px-20 xl:px-28 lg:py-10 2xl:px-72 2xl:pb-32">

@@ -24,6 +24,11 @@
 body, html {
   overflow-x: hidden;
   }
+
+  *, html {
+
+    scroll-behavior: smooth !important;
+}
 /* 
 a {
   font-weight: 500;

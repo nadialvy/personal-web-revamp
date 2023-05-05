@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-purple-500 overflow-x-hidden">
+  <div class="bg-purple-500 overflow-x-hidden" id="home">
     <img id="animate-on-load-star-down" src="/hero/el-hero-star.svg" alt="star" class="absolute opacity-30 -z-0 left-0 bottom-0 top-[500px] md:top-[600px] lg:top-[450px] w-32 md:w-44 lg:w-52 xl:w-72 xl:top-[510px]">
     <img id="animate-on-load-starround-up" src="/hero/el-hero-round.svg" alt="star round" class="absolute opacity-40 -z-0 top-0 left-64 md:left-[450px] lg:left-[550px] w-32 md:w-48 lg:w-64 xl:w-96 xl:left-[900px] 2xl:left-[1300px]">
     <div class="flex flex-wrap" id="animate-on-load-up" >
@@ -14,7 +14,7 @@
           </p>
           <button class="bg-pink-500 px-6 py-2 md:text-lg lg:text-lg hover:bg-pink-600 transition-all md:px-8 md:py-3 xl:text-xl 2xl:text-2xl font-semibold">Discover More</button>
         </div>
-    </div>
+      </div>
       <div class="lg:w-4/5 -z-0">
         <img src="/hero/hero-2.svg" alt="Hero" class="-z-20 lg:w-[1000px] relative lg:bottom-0 xl:left-[140px] 2xl:left-[530px]"/>
       </div>

@@ -2,7 +2,8 @@
 </script>
 
 <template>
-  <div class="bg-purple-500 text-white px-8 py-6 md:py-10 lg:px-32 xl:px-44 2xl:px-[410px] relative">
+  <p class="relative bottom-[68px] lg:bottom-[98px]" id="experiences"></p>
+  <div class="bg-purple-500 text-white px-8 py-6 md:py-10 lg:px-32 xl:px-44 2xl:px-[410px] relative" >
     <p
       class="text-3xl text-white font-bold text-center lg:text-4xl lg:pb-8 xl:text-5xl 2xl:text-6xl pb-8"
     >
