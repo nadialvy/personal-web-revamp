@@ -1,12 +1,33 @@
 <template>
   <div>
     <div class="block lg:hidden">
-      <div class="w-full z-50 fixed">
+      <div class="w-full fixed z-50">
         <nav :class="navbarClasses">
-          <div class="flex items-start justify-between">
-            
+          <div class="flex justify-between items-center px-8 py-4">
+            <div class="w-1/2" @click="toggleDrawer()">
+              <div class="w-9 hover:cursor-pointer">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill-rule="evenodd" clip-rule="evenodd" d="M2 7a1 1 0 0 1 1-1h18a1 1 0 1 1 0 2H3a1 1 0 0 1-1-1zm0 5a1 1 0 0 1 1-1h18a1 1 0 1 1 0 2H3a1 1 0 0 1-1-1zm1 4a1 1 0 1 0 0 2h18a1 1 0 1 0 0-2H3z" fill="#ffffff"></path></g></svg>
+              </div>
+            </div>
+            <div class="w-1/2 flex justify-end">
+              <img src="/logo.svg" alt="Logo" class="w-8">
+            </div>
           </div>
         </nav>
+      </div>
+
+      <!-- canvas -->
+      <div class="bg-white w-80 h-full fixed z-50 px-8 py-4 transition-all ease-in" :class="isDrawerOpen ? 'visible-canvas' : 'hidden-canvas'">
+        <div class="flex flex-col gap-y-2 text-black">
+          <div class="w-12 hover:cursor-pointer" @click="toggleDrawer">
+            <svg viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>close-small</title> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="add" fill="#302895" transform="translate(134.248389, 134.248389)"> <path d="M213.333333,2.84217094e-14 L243.503223,30.1698893 L151.921,121.751 L243.503223,213.333333 L213.333333,243.503223 L121.751,151.921 L30.1698893,243.503223 L2.84217094e-14,213.333333 L91.582,121.751 L2.84217094e-14,30.1698893 L30.1698893,2.84217094e-14 L121.751,91.582 L213.333333,2.84217094e-14 Z" id="Combined-Shape"> </path> </g> </g> </g></svg>
+          </div>
+          <p class="hover:cursor-pointer hover:bg-purple-500 p-4 rounded-md hover:bg-opacity-90 hover:text-white transition-all">About</p>
+          <p class="hover:cursor-pointer hover:bg-purple-500 p-4 rounded-md hover:bg-opacity-90 hover:text-white transition-all">Skills</p>
+          <p class="hover:cursor-pointer hover:bg-purple-500 p-4 rounded-md hover:bg-opacity-90 hover:text-white transition-all">Projects</p>
+          <p class="hover:cursor-pointer hover:bg-purple-500 p-4 rounded-md hover:bg-opacity-90 hover:text-white transition-all">Experiences</p>
+          <p class="hover:cursor-pointer hover:bg-purple-500 p-4 rounded-md hover:bg-opacity-90 hover:text-white transition-all">Contact</p>
+        </div>
       </div>
     </div>
     <div class="hidden lg:block">
@@ -35,22 +56,12 @@
 </template>
 
 <style>
-.drawer-container {
-  /* make the position is translate x -100 */
-  transform: translateX(-1000%);
+.hidden-canvas {
+  left: -320px;
 }
 
-.drawer-container.drawer-open .drawer-content {
-  animation: slide-in .3s ease-out;
-}
-
-@keyframes slide-in {
-  from {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translateX(0%);
-  }
+.visible-canvas {
+  left: 0px;
 }
 
 </style>
@@ -91,6 +102,7 @@ export default {
     },
     toggleDrawer() {
       this.isDrawerOpen = !this.isDrawerOpen;
+      console.log(this.isDrawerOpen)
     },
   }
 }
