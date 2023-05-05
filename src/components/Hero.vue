@@ -5,7 +5,7 @@
     <div class="flex flex-wrap" id="animate-on-load-up" >
       <div class="px-8 py-6 md:pt-32 lg:w-1/5 lg:px-12 lg:py-16 z-10 2xl:px-32">
         <div class="text-white lg:absolute lg:pr-80 xl:pr-96 lg:inset-y-1/3 lg:transform lg:-translate-y-1/3">
-          <p class="text-3xl font-bold md:text-4xl lg:text-5xl lg:pr-16 xl:text-7xl">
+          <p class="text-3xl mt-16 lg:mt-0 font-bold md:text-4xl lg:text-5xl lg:pr-16 xl:text-7xl">
             Innovation, Exploration, and Everything In Between
           </p>
           <p class="pt-8 pb-4 md:pr-64 lg:pr-72 xl:pr-96 md:text-lg lg:text-lg md:pt-12 md:pb-10 xl:text-2xl 2xl:pt-22 2xl:pr-[550px] z-20">
@@ -16,7 +16,7 @@
         </div>
     </div>
       <div class="lg:w-4/5 -z-0">
-        <img src="/hero/hero-2.svg" alt="Hero" class="lg:w-[1000px] relative lg:bottom-0 xl:left-[140px] 2xl:left-[530px]"/>
+        <img src="/hero/hero-2.svg" alt="Hero" class="-z-20 lg:w-[1000px] relative lg:bottom-0 xl:left-[140px] 2xl:left-[530px]"/>
       </div>
     </div>
   </div>
@@ -46,7 +46,7 @@
     transform: translateY(0);
   }
   to {
-    opacity: 1;
+    opacity: 0.4;
     transform: translateY(20px);
   }
 }
