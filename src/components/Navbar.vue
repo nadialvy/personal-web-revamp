@@ -32,26 +32,28 @@
         </div>
       </div>
     </div>
+
+    <!-- lg screen -->
     <div class="hidden lg:block">
       <div class="fixed w-full z-50">
         <nav :class="navbarClasses">
-          <div class="flex items-center justify-between px-16 py-8 lg:py-4">
+          <div class="flex items-center justify-between px-28 xl:py-8 lg:py-4">
             <div class="w-1/10">
               <a href="/#home">
                 <img src="/logo.svg" alt="Logo" class="w-2/3">
               </a>
             </div>
             <div class="w-8/10">
-              <div class="flex gap-x-12 xl:gap-x-20 2xl:gap-x-40 text-white font-semibold text-md xl:text-lg hover:cursor-pointer">
-                <p class="hover:text-pink-700 hover:underline hover:underline-offset-8 text-sm transition-all"><a href="#about">About</a></p>
-                <p class="hover:text-pink-700 hover:underline hover:underline-offset-8 text-sm transition-all"><a href="/#skills">Skills</a></p>
-                <p class="hover:text-pink-700 hover:underline hover:underline-offset-8 text-sm transition-all"><a href="/#projects">Projects</a></p>
-                <p class="hover:text-pink-700 hover:underline hover:underline-offset-8 text-sm transition-all"><a href="/#experiences">Experiences</a></p>
+              <div class="flex gap-x-12 xl:gap-x-20 text-white font-semibold text-md xl:text-lg hover:cursor-pointer">
+                <p class="hover:text-pink-700 hover:underline hover:underline-offset-8 text-sm lg:text-md xl:text-lg 2xl:text-xl transition-all"><a href="#about">About</a></p>
+                <p class="hover:text-pink-700 hover:underline hover:underline-offset-8 text-sm lg:text-md xl:text-lg 2xl:text-xl transition-all"><a href="/#skills">Skills</a></p>
+                <p class="hover:text-pink-700 hover:underline hover:underline-offset-8 text-sm lg:text-md xl:text-lg 2xl:text-xl transition-all"><a href="/#projects">Projects</a></p>
+                <p class="hover:text-pink-700 hover:underline hover:underline-offset-8 text-sm lg:text-md xl:text-lg 2xl:text-xl transition-all"><a href="/#experiences">Experiences</a></p>
               </div>
             </div>
             <div class="w-1/10">
               <a href="/#contact">
-                <button class="border border-white py-1 px-4 text-sm text-white font-semibold hover:bg-pink-700 hover:border-pink-700">Contact</button>
+                <button class="border border-white py-1 px-4 text-sm xl:text-lg 2xl:text-xl text-white font-semibold hover:bg-pink-700 hover:border-pink-700">Contact</button>
               </a>
             </div>
           </div>

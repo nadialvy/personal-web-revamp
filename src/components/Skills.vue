@@ -8,7 +8,7 @@ import SkillCard from '../widgets/SkillCard.vue';
     <img src="/skills/top-star.svg" alt="star element" class="absolute -right-10 top-10 w-40 lg:w-72 lg:-right-0 opacity-50 -z-0">
     <div class="px-8 pt-8 pb-10 lg:px-20 xl:px-28 lg:py-10 2xl:px-72 2xl:pb-32">
       <p class="text-3xl text-white font-bold text-center lg:text-4xl lg:pb-8 xl:text-5xl 2xl:text-6xl">Skills</p>
-      <p class="text-white text-center xl:text-xl 2xl:text-2xl mt-2">Through years of education and hands-on experience, I've honed a diverse range of skills that enable me to tackle complex challenges with confidence and creativity. Here are some of the skills I've developed:</p>
+      <p class="text-white text-center md:text-lg lg:text-lg xl:text-xl 2xl:text-2xl mt-2">Through years of education and hands-on experience, I've honed a diverse range of skills that enable me to tackle complex challenges with confidence and creativity. Here are some of the skills I've developed:</p>
       <div class="flex flex-wrap mb-4 xl:mt-2 2xl:mt-6">
         <div class="w-1/2 md:w-1/3 lg:w-1/4">
           <SkillCard
