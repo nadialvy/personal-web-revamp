@@ -29,6 +29,13 @@ body, html {
 
     scroll-behavior: smooth !important;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
 /* 
 a {
   font-weight: 500;
