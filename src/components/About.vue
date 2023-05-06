@@ -1,5 +1,5 @@
 <template>
-  <p class="relative bottom-[68px] lg:bottom-[98px] bg-sandwhite-100" id="about"></p>
+  <p class="relative bottom-[68px] lg:bottom-[98px] bg-white" id="about"></p>
   <img src="/about/el-planet.svg" alt="PLanet element" class="w-28 absolute right-0 lg:w-32 xl:w-52 2xl:w-64">
   <p class="text-3xl text-purple-500 pb-8 pt-8 font-bold text-center lg:hidden">About</p>
   <div class="px-8 py-2 md:flex md:gap-x-4 xl:gap-x-8 lg:px-20 xl:px-24 2xl:px-72 2xl:gap-x-16 lg:mt-6">

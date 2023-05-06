@@ -9,11 +9,34 @@ import ContactUs from './components/ContactUs.vue';
 </script>
 
 <template>
-  <Navbar />
-  <Hero />
-  <About />
-  <Skills />
-  <Projects />
-  <Experience />
-  <ContactUs />
+  <div v-if="loading" class="flex h-screen">
+    <div class="m-auto">
+      <img src="/loading.gif" alt="Loading" class="w-20">
+    </div>
+  </div>
+  <div v-else>
+    <Navbar />
+    <Hero />
+    <About />
+    <Skills />
+    <Projects />
+    <Experience />
+    <ContactUs />
+  </div>
 </template>
+
+<script>
+export default {
+  data(){
+    return {
+      loading: true
+    }
+  },
+  mounted() {
+    window.onload = () => {
+      this.loading = false;
+    };
+  }
+
+}
+</script>

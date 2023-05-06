@@ -1,5 +1,5 @@
 <template>
-  <p class="relative bottom-[68px] lg:bottom-[98px] bg-sandwhite-100" id="projects"></p>
+  <p class="relative bottom-[68px] lg:bottom-[98px] bg-white" id="projects"></p>
   <div class="px-8 py-6 lg:px-20 xl:px-28 2xl:px-72 lg:py-10 relative bg-white">
     <!-- <p class="text-center font-bold text-red-500 lg:text-lg mb-4">!!! This page is under construction !!!</p> -->
     <p class="text-3xl mb-6 text-purple-500 font-bold text-center lg:text-4xl lg:pb-8 xl:text-5xl 2xl:text-6xl">Projects</p>
