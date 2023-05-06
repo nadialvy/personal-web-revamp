@@ -4,7 +4,7 @@
   <p class="text-3xl text-purple-500 pb-8 pt-8 font-bold text-center lg:hidden">About</p>
   <div class="px-8 py-2 md:flex md:gap-x-4 xl:gap-x-8 lg:px-20 xl:px-24 2xl:px-72 2xl:gap-x-16 lg:mt-6">
     <div class="md:w-1/3 items-center md:justify-center">
-      <img src="/about/main-pict.svg" alt="Self Picture" class="w-full animate-bounce animate-bounce-slow ease-in">
+      <img src="/about/main-pict.png" alt="Self Picture" class="w-full animate-bounce animate-bounce-slow ease-in">
     </div>
     <div class="pt-8 text-purple-500 md:w-2/3 md:text-lg lg:text-lg xl:text-2xl">
       <p class="text-white hidden lg:block lg:text-purple-500 font-bold lg:text-4xl lg:pb-8 xl:text-5xl 2xl:text-6xl hover-rectangle hover:cursor-pointer overflow-x-hidden">About</p>
