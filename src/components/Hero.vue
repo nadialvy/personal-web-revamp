@@ -18,7 +18,7 @@
         </div>
       </div>
       <div class="lg:w-4/5 -z-0">
-        <img src="/hero/hero-2.svg" alt="Hero" class="-z-20 lg:w-[1000px] relative lg:bottom-0 xl:left-[140px] 2xl:left-[530px]"/>
+        <img src="/hero/hero-2.png" alt="Hero" class="-z-20 lg:w-[1000px] relative lg:bottom-0 xl:left-[140px] 2xl:left-[530px]"/>
       </div>
     </div>
   </div>
