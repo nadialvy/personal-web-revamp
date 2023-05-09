@@ -10,7 +10,7 @@ import ContactUs from './components/ContactUs.vue';
 
 <template>
   <div v-if="loading" class="flex h-screen">
-    <div class="m-auto">
+    <div class="m-auto bg-white">
       <img src="/loading.gif" alt="Loading" class="w-20">
     </div>
   </div>
