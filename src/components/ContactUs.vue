@@ -103,7 +103,7 @@ export default{
       this.message = ''
     },
     downloadResume(){
-      const fileURL = 'contact/resume.pdf';
+      const fileURL = 'contact/Nadia Lovely Resume.pdf';
 
       // Create a temporary link element
       const link = document.createElement('a');
