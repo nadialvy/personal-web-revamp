@@ -100,4 +100,3 @@ import SkillCard from '../widgets/SkillCard.vue';
   </div>
 </template>
 
-<!-- flex flex-wrap -mx-4 mt-20 max-[380px]:mt-10 -->

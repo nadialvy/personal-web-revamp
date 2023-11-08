@@ -25,7 +25,7 @@
           </div>
         </a>
       
-        <button class="mt-4 2xl:mt-16 btn bg-pink-500 hover:bg-pink-600 border-none rounded-none w-full mb-2 lg:text-lg normal-case" @click="downloadResume">Download my resume</button>
+        <button class="mt-4 2xl:mt-16 btn bg-pink-500 hover:bg-pink-600 border-none rounded-none w-full mb-2 lg:text-lg normal-case  text-white" @click="downloadResume">Download my resume</button>
         <div class="divider lg:hidden"></div>
       </div>
 
@@ -103,13 +103,13 @@ export default{
       this.message = ''
     },
     downloadResume(){
-      const fileURL = 'contact/Nadia Lovely Resume.pdf';
+      const fileURL = 'contact/CV_Nadia Lovely.pdf';
 
       // Create a temporary link element
       const link = document.createElement('a');
       link.href = fileURL;
       link.target = '_blank';
-      link.download = 'Nadia Lovely Resume.pdf';
+      link.download = 'CV_Nadia Lovely.pdf';
 
       // Append the link element to the document body
       document.body.appendChild(link);
