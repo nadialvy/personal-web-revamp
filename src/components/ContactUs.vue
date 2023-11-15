@@ -34,25 +34,25 @@
           <label class="label">
             <span class="label-text lg:text-lg">Name</span>
           </label>
-          <input type="text" v-model="from_name" name="name" placeholder="John Doe" class="bg-white input input-bordered w-full mb-2" />
+          <input type="text" v-model="from_name" name="name" placeholder="John Doe" class="bg-white text-purple-500 input input-bordered w-full mb-2" />
         </div>
         <div class="form-control w-full mb-2">
           <label class="label">
             <span class="label-text lg:text-lg">Email</span>
           </label>
-          <input type="text" placeholder="john@gmail.com" v-model="from_email" name="email" class="bg-white input input-bordered w-full mb-2" />
+          <input type="text" placeholder="john@gmail.com" v-model="from_email" name="email" class="bg-white text-purple-500 input input-bordered w-full mb-2" />
         </div>
         <div class="form-control w-full mb-2">
           <label class="label">
             <span class="label-text lg:text-lg">Subject</span>
           </label>
-          <input type="text" v-model="subject" name="subject" class="bg-white input input-bordered w-full mb-2" />
+          <input type="text" v-model="subject" name="subject" class="bg-white text-purple-500 input input-bordered w-full mb-2" />
         </div>
         <div class="form-control">
           <label class="label">
             <span class="label-text lg:text-lg">Message</span>
           </label>
-          <textarea v-model="message" name="message" class="bg-white textarea textarea-bordered h-24" ></textarea>
+          <textarea v-model="message" name="message" class="bg-white text-purple-500 textarea textarea-bordered h-24" ></textarea>
         </div>
         <button class="btn btn-primary mt-4 rounded-none w-full mb-2 lg:text-lg normal-case" @click="sendEmail">Send</button>
       </div>
