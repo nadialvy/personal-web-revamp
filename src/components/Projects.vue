@@ -21,7 +21,7 @@
       <div class="carousel-item">
         <div class="ml-4 text-center flex flex-col">
           <img
-            src="/project/inilhoits.png"
+            src="/project/inilhoits.webp"
             alt="inilhoits"
             class="w-52 lg:w-64 xl:w-72 2xl:w-80"
           />
