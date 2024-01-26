@@ -54,7 +54,7 @@
       <div class="carousel-item">
         <div class="ml-4 text-center flex flex-col">
           <img
-            src="/project/flexitrip.png"
+            src="/project/flexitrip.webp"
             alt="flexitrip"
             class="w-52 lg:w-64 xl:w-72 2xl:w-80"
           />
@@ -82,7 +82,7 @@
       <div class="carousel-item">
         <div class="ml-4 text-center flex flex-col">
           <img
-            src="/project/inlight.png"
+            src="/project/inlight.webp"
             alt="inlight"
             class="w-52 lg:w-64 xl:w-72 2xl:w-80"
           />
@@ -117,7 +117,7 @@
       <div class="carousel-item">
         <div class="ml-4 text-center flex flex-col">
           <img
-            src="/project/cvo.png"
+            src="/project/cvo.webp"
             alt="PT-CVO"
             class="w-52 lg:w-64 xl:w-72 2xl:w-80"
           />
@@ -153,7 +153,7 @@
       <div class="carousel-item">
         <div class="ml-4 text-center flex flex-col">
           <img
-            src="/project/gredu.png"
+            src="/project/gredu.webp"
             alt="Gredu"
             class="w-52 lg:w-64 xl:w-72 2xl:w-80"
           />
@@ -189,7 +189,7 @@
       <div class="carousel-item">
         <div class="ml-4 text-center flex flex-col">
           <img
-            src="/project/jualin.png"
+            src="/project/jualin.webp"
             alt="Bakulan"
             class="w-52 lg:w-64 xl:w-72 2xl:w-80"
           />
@@ -211,7 +211,7 @@
       <div class="carousel-item">
         <div class="ml-4 text-center flex flex-col">
           <img
-            src="/project/besnik.png"
+            src="/project/besnik.webp"
             alt="Besnik"
             class="w-52 lg:w-64 xl:w-72 2xl:w-80"
           />
@@ -240,7 +240,7 @@
       <div class="carousel-item">
         <div class="ml-4 text-center flex flex-col">
           <img
-            src="/project/artcademy.png"
+            src="/project/artcademy.webp"
             alt="Artcademy"
             class="w-52 lg:w-64 xl:w-72 2xl:w-80"
           />
@@ -273,7 +273,7 @@
       <div class="carousel-item">
         <div class="ml-4 text-center flex flex-col">
           <img
-            src="/project/siordig.png"
+            src="/project/siordig.webp"
             alt="Siordig"
             class="w-52 lg:w-64 xl:w-72 2xl:w-80"
           />
@@ -295,7 +295,7 @@
       <!-- <div class="carousel-item">
         <div class="ml-4 text-center flex flex-col">
           <img
-            src="/project/POS.png"
+            src="/project/POS.webp"
             alt="Wikusama Cafe"
             class="w-[575px] lg:w-[700px] xl:w-[800px] 2xl:w-[880px]"
           />
